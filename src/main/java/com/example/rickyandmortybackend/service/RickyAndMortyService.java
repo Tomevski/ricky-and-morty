@@ -1,2 +1,5 @@
-package com.example.rickyandmortybackend.service;public interface RickyAndMortyService {
+package com.example.rickyandmortybackend.service;
+
+public interface RickyAndMortyService {
+    String getCharacters(int page);
 }
